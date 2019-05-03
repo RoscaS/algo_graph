@@ -1,4 +1,0 @@
-/home/nath/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/nath/Documents/2Annee/algoII/exercices/algo_graph
--- Configuring done
--- Generating done
--- Build files have been written to: /home/nath/Documents/2Annee/algoII/exercices/algo_graph/cmake-build-debug
