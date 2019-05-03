@@ -1,11 +1,13 @@
 #pragma once
 
 #include "../graph/graph.h"
+#include "../graphviz/basegraphviz.h"
+
 #include <set>
 #include <iostream>
 
 template<class VertexData>
-class DepthFirstIterator {
+class DepthFirstIterator : public BaseGraphviz<VertexData>{
 
    Graph<VertexData> graph;
    std::set<int> visited;
@@ -23,10 +25,14 @@ public:
 
    void depthFirst(Vertex<VertexData> *vertex) {
        visited.insert(vertex->index);
-       std::cout << vertex->data << "\n";
+       // std::cout << vertex->data << "\n";
+       this->addVertexToGraphviz(vertex);
+
        for (auto const link : vertex->edges) {
            if (!isVisited(link->target->index)) {
                depthFirst(link->target);
+
+               this->addLinkToGraphviz(vertex, link->target);
            }
        }
    }

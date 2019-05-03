@@ -1,3 +1,0 @@
-/home/nath/Documents/2Annee/algoII/exercices/algo_graph/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/nath/Documents/2Annee/algoII/exercices/algo_graph/cmake-build-debug/CMakeFiles/Graph2.dir
-/home/nath/Documents/2Annee/algoII/exercices/algo_graph/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,6 +1,10 @@
 ## Python
 venv/
 /venv/
+
+## Cpp
+cmake-build-debug/CMakeFiles/
+
 ## Java
 
 *.class

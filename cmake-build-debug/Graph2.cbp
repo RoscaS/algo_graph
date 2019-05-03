@@ -102,6 +102,9 @@
 		<Unit filename="/home/nath/Documents/2Annee/algoII/exercices/algo_graph/graph/vertex.h">
 			<Option target="Graph2"/>
 		</Unit>
+		<Unit filename="/home/nath/Documents/2Annee/algoII/exercices/algo_graph/graphviz/basegraphviz.h">
+			<Option target="Graph2"/>
+		</Unit>
 		<Unit filename="/home/nath/Documents/2Annee/algoII/exercices/algo_graph/iterators/depthFirstSearch.h">
 			<Option target="Graph2"/>
 		</Unit>
