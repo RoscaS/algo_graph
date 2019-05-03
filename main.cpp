@@ -23,7 +23,6 @@ int main() {
     GraphvizIterator<std::string> gvzit(*graph);
     gvzit.display();
 
-
     return 0;
 }
 
