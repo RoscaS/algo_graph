@@ -11,6 +11,7 @@ vector<string> ManageFile::readFile() {
     string line;
     vector<string> out;
     ifstream file;
+
     file.open(path);
     if(!file) {
         cout << "Unable to open file : " << path << endl;

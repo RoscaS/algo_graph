@@ -13,9 +13,9 @@ public:
     void buildFromFile(string path);
 private:
     Graph<string> *graph;
-    ManageFile *file;
     unordered_map<string,int>* vertex;
 
     vector<string> split(string text, char split);
     void createEdge(vector<string> tab, int index);
+    void createVertex(vector<string> tab);
 };

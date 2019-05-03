@@ -8,6 +8,7 @@ struct Edge {
 
    Vertex<VertexData> *source;
    Vertex<VertexData> *target;
+   int weight;
 
    Edge(Vertex<VertexData> *source, Vertex<VertexData> *target)
            : source(source), target(target) {}
