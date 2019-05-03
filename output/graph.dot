@@ -1,0 +1,22 @@
+graph G {
+	"www.zoozzy.mil";
+	"www.twiyo.biz";
+	"www.aibox.com";
+	"www.mybuzz.edu";
+	"www.demivee.info";
+	"www.linkbridge.gov";
+	"www.yadel.com";
+	"www.feedmix.com";
+	"www.rhynyx.net";
+	"www.feedmix.com" -- "www.rhynyx.net";
+	"www.blogspan.org";
+	"www.feedmix.com" -- "www.blogspan.org";
+	"www.yadel.com" -- "www.feedmix.com";
+	"www.linkbridge.gov" -- "www.yadel.com";
+	"www.demivee.info" -- "www.linkbridge.gov";
+	"www.mybuzz.edu" -- "www.demivee.info";
+	"www.aibox.com" -- "www.mybuzz.edu";
+	"www.twiyo.biz" -- "www.aibox.com";
+	"www.zoozzy.mil" -- "www.twiyo.biz";
+
+}

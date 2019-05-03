@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+node.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/node.h
+
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/node.h
+vector
+-
+
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/iterator/depthFirstIterator.h
+../graph/node.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/node.h
+../graph/graph.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+stack
+-
+set
+-
+
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/iterator/vertexIterator.h
+../graph/graph.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/main.cpp
+iostream
+-
+vector
+-
+graph/graph.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+iterator/vertexIterator.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/iterator/vertexIterator.h
+iterator/depthFirstIterator.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/iterator/depthFirstIterator.h
+

@@ -1,0 +1,4 @@
+/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sol/Code/Cpp/Algo/Graphs/Graph1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sol/Code/Cpp/Algo/Graphs/Graph1/cmake-build-debug
