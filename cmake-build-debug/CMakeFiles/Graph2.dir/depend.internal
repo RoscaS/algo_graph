@@ -15,6 +15,7 @@ CMakeFiles/Graph2.dir/main.cpp.o
  /home/sol/Code/Cpp/Algo/Graphs/Graph1/generator/ManageFile.hpp
  /home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
  /home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/vertex.h
+ /home/sol/Code/Cpp/Algo/Graphs/Graph1/graphviz/basegraphviz.h
  /home/sol/Code/Cpp/Algo/Graphs/Graph1/iterators/GraphvizIterator.h
  /home/sol/Code/Cpp/Algo/Graphs/Graph1/iterators/depthFirstSearch.h
  /home/sol/Code/Cpp/Algo/Graphs/Graph1/iterators/vertexIterator.h

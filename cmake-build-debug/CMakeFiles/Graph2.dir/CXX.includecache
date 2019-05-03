@@ -32,9 +32,19 @@ vertex.h
 
 /home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/vertex.h
 
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graphviz/basegraphviz.h
+../graph/graph.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+iostream
+-
+fstream
+-
+
 /home/sol/Code/Cpp/Algo/Graphs/Graph1/iterators/GraphvizIterator.h
 ../graph/graph.h
 /home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+../graphviz/basegraphviz.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graphviz/basegraphviz.h
 set
 -
 iostream
@@ -49,6 +59,8 @@ stdlib.h
 /home/sol/Code/Cpp/Algo/Graphs/Graph1/iterators/depthFirstSearch.h
 ../graph/graph.h
 /home/sol/Code/Cpp/Algo/Graphs/Graph1/graph/graph.h
+../graphviz/basegraphviz.h
+/home/sol/Code/Cpp/Algo/Graphs/Graph1/graphviz/basegraphviz.h
 set
 -
 iostream

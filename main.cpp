@@ -9,19 +9,27 @@
 #include "generator/GraphBuilder.hpp"
 #include "utils/helpers.h"
 
-int main() {
+
+void ranking() {
     auto graph = new Graph<std::string>();
-    // build_dummy_graph(graph);
-    // VertexIterator<std::string> vit(*graph);
-    // DepthFirstIterator<std::string> dit(*graph);
+    Helpers<std::string>::importRankingData(graph);
+    GraphvizIterator<std::string> it(*graph);
+    it.explore();
+    it.displayGraphviz();
+}
 
-    // display(graph);
-    // vit.display();
-    // dit.explore();
+void dummyGraph() {
+    auto graph = new Graph<char>();
+    Helpers<char>::buildDummyGraph(graph);
+    DepthFirstIterator<char> it(*graph);
+    it.explore();
+    it.displayGraphviz();
 
-    Helpers::import_data(graph);
-    GraphvizIterator<std::string> gvzit(*graph);
-    gvzit.display();
+}
+
+int main() {
+    // ranking();
+    dummyGraph();
 
     return 0;
 }

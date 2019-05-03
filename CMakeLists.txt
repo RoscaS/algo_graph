@@ -7,6 +7,7 @@ add_executable(
         Graph2 main.cpp
         graph/graph.h
         graph/vertex.h
+        graphviz/basegraphviz.h
         iterators/depthFirstSearch.h
         iterators/vertexIterator.h
         generator/ManageFile.hpp

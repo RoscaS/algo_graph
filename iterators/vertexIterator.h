@@ -9,8 +9,7 @@ public:
    int position;
    Graph<VertexData> graph;
 
-   explicit VertexIterator(Graph<VertexData> &graph)
-           : graph(graph), position(-1) {}
+   explicit VertexIterator(Graph<VertexData> &graph) : graph(graph), position(-1) {}
 
    bool has_next() {
        return graph.vertices.size() - (position - 1) > 0;
