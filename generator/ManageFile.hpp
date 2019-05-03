@@ -2,8 +2,8 @@
 #include <fstream>
 #include <vector>
 
-
 using namespace std;
+
 class ManageFile {
 public :
     ManageFile(string path);
