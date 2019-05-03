@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/nath/Documents/2Annee/algoII/exercices/algo_graph/generator/GraphBuilder.cpp
-GraphBuilder.hpp
-/home/nath/Documents/2Annee/algoII/exercices/algo_graph/generator/GraphBuilder.hpp
-iostream
--
-
 /home/nath/Documents/2Annee/algoII/exercices/algo_graph/generator/GraphBuilder.hpp
 string
 -

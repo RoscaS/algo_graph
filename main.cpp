@@ -21,6 +21,7 @@ int main() {
 
     Helpers::import_data(graph);
     GraphvizIterator<std::string> gvzit(*graph);
+    Helpers::display(graph);
     gvzit.display();
 
 

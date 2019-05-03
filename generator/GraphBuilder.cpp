@@ -13,7 +13,7 @@ GraphBuilder::GraphBuilder(Graph<std::string> *graph) {
 void GraphBuilder::buildFromFile(string path){
     ManageFile file(path);
     vector<string> tab = file.readFile();
-    
+
     createVertex(tab);
 
     int idx = 0;
