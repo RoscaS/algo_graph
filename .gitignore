@@ -3,7 +3,7 @@ venv/
 /venv/
 
 ## Cpp
-cmake-build-debug/CMakeFiles/
+cmake-build-debug
 
 ## Java
 
