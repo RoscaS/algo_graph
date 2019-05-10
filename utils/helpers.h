@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include "../graph/graph.h"
-#include "../generator/GraphBuilder.hpp"
+#include "../generator/GraphBuilder.h"
 
 
 template<class VertexData>
@@ -31,7 +31,7 @@ public:
    }
 
    static void importRankingData(Graph<VertexData> *graph) {
-       auto builder = new GraphBuilder(graph);
+       auto builder = new GraphBuilder<VertexData>(graph);
        builder->buildFromFile("../generator/rawdata");
    }
 };

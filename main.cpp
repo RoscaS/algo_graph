@@ -6,7 +6,7 @@
 #include "iterators/vertexIterator.h"
 #include "iterators/depthFirstSearch.h"
 #include "iterators/GraphvizIterator.h"
-#include "generator/GraphBuilder.hpp"
+#include "generator/GraphBuilder.h"
 #include "utils/helpers.h"
 
 

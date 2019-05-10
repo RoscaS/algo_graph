@@ -11,8 +11,9 @@ add_executable(
         iterators/depthFirstSearch.h
         iterators/vertexIterator.h
         generator/ManageFile.hpp
-        generator/GraphBuilder.hpp
         generator/ManageFile.cpp
-        generator/GraphBuilder.cpp
+        generator/GraphBuilder.h
+        generator/GenerateData.cpp
+        generator/GenerateData.hpp
         utils/helpers.h
 )
