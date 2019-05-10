@@ -13,7 +13,11 @@
 void ranking() {
     auto graph = new Graph<std::string>();
     Helpers<std::string>::importRankingData(graph);
+    Helpers<std::string>::print(graph);
     GraphvizIterator<std::string> it(*graph);
+    VertexIterator<std::string> itV(*graph);
+    itV.display();
+
     it.explore();
     it.displayGraphviz();
 }
@@ -29,7 +33,7 @@ void dummyGraph() {
 
 int main() {
     // ranking();
-    dummyGraph();
+    ranking();
 
     return 0;
 }
